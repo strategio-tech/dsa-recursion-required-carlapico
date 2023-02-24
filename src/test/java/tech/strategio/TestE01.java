@@ -11,7 +11,7 @@ public class TestE01 {
     @DisplayName("FIXME")
     @ParameterizedTest(name = "{index} => {0} is {1}")
     @MethodSource("argumentStream")
-    // replace int[] and Boolean with the appropriate types
+      // replace int[] and Boolean with the appropriate types
     void argumentStream(int value, int result) {
         E01 exercise = new E01();
         int val = exercise.getNthFib(value);
